@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783108369987",
+    "firebase_url": "https://pictcanteen-a76a4.firebaseio.com",
+    "project_id": "pictcanteen-a76a4",
+    "storage_bucket": "pictcanteen-a76a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783108369987:android:3a032aff97c26f12",
+        "android_client_info": {
+          "package_name": "com.example.himanshupalve.pictcanteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783108369987-c5l71ep6tu2mus7lo4gcvekev5ffk2rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.himanshupalve.pictcanteen",
+            "certificate_hash": "c199f21362224e81b0132b816873950ddbe6acc1"
+          }
+        },
+        {
+          "client_id": "783108369987-grq5h3tekmr7pgkjdrbn9086mjhnvlbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYEetRG2_360zS_FBR1q56Xm4YiNINx_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783108369987-grq5h3tekmr7pgkjdrbn9086mjhnvlbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

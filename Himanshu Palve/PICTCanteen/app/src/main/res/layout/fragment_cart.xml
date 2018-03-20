@@ -1,0 +1,44 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.himanshupalve.pictcanteen.CartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/EmptyCart_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/cartisempty"
+        android:visibility="gone"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_confirmOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_below="@id/rv_cart"
+        android:padding="12dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Confirm Order"/>
+
+
+</RelativeLayout>
+
+</ScrollView>

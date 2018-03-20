@@ -1,0 +1,10 @@
+MasalaDosa
+IdliSambar
+MeduWadaSambar
+IdliWada
+Samosa
+Kachori
+WadaPav
+Pattis
+Poha
+Upma

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.himanshupalve.pictcanteen.MainActivity"
+    android:fitsSystemWindows="true">
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:animateLayoutChanges="true"
+        android:fitsSystemWindows="true"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+
+    </FrameLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        app:itemIconTint="@color/colorAccent"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:elevation="4dp"
+        app:menu="@menu/bottom_nav_menu"/>
+
+
+</RelativeLayout>
